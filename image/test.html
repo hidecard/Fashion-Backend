@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    .imgs{
+        display: flex;
+        animation: slide 10s linear infinite;
+        animation-delay: -50s;
+    }
+    .container{
+        overflow: hidden;
+    }
+    @keyframes slide {
+        0%{
+            transform: translateX(0%);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+
+</style>
+<body>
+
+    <div class="container">
+        <div class="imgs">
+            <img src="p1.png" alt="">
+            <img src="p10.jpg" alt="">
+            <img src="p11.jpg" alt="">
+            <img src="p13.png" alt="">
+            <img src="p17.png" alt="">
+            <img src="p1.png" alt="">
+            <img src="p10.jpg" alt="">
+            <img src="p11.jpg" alt="">
+            <img src="p13.png" alt="">
+            <img src="p17.png" alt="">
+            <img src="p1.png" alt="">
+            <img src="p10.jpg" alt="">
+            <img src="p11.jpg" alt="">
+            <img src="p13.png" alt="">
+            <img src="p17.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
