@@ -48,7 +48,7 @@
             <div class="col-sm-10">
             <select name="cat" id="" class="form-control">
                 <option value="">Choose Category</option>
-                <?php 
+                <?php
                     $sql = "select * from category";
                     $res = mysqli_query($conn,$sql);
                     while($row=mysqli_fetch_assoc($res)):
@@ -61,7 +61,7 @@
         <input type="submit" name="save" value="Save" class="btn btn-success mt-4">
     </form>
 
-                <?php 
+                <?php
                     if(isset($_POST['save'])){
                         $name = $_POST['name'];
                         $price = $_POST['price'];

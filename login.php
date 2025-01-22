@@ -1,8 +1,8 @@
 
     <?php 
-
+ session_start();
         include('dbcon.php');
-        session_start();
+       
         if(isset($_POST['login'])){ 
             $name = $_POST['uname']; 
             $pass = $_POST['upass'];

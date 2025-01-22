@@ -21,7 +21,7 @@
             Category
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1c1c50;">
-          <?php 
+          <?php
             include('dbcon.php');
             $sql = "select * from category";
             $res = mysqli_query($conn, $sql);

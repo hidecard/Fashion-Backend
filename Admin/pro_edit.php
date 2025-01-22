@@ -87,7 +87,7 @@
             <select name="cat" id="" class="form-control">
                 <option value="<?php echo $data['pro_category'];?>"><?php echo $data['cat_name'];?></option>
 
-                <?php 
+                <?php
                     $sql = "select * from category";
                     $res = mysqli_query($conn,$sql);
                     while($row=mysqli_fetch_assoc($res)):
